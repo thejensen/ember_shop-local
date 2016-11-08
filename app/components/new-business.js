@@ -20,7 +20,7 @@ export default Ember.Component.extend({
         yearsInBusiness: this.get('yearsInBusiness') ? this.get('yearsInBusiness') : "",
         description: this.get('description') ? this.get('description') : "",
         website: this.get('website') ? this.get('website') : "",
-        category: this.get('category')
+        category: $("#category_id").val()
       };
       this.set('isShowingModal', false);
       this.sendAction('saveBusiness', params);
