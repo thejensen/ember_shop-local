@@ -23,6 +23,9 @@ export default Ember.Component.extend({
       };
       this.set('updateBusinessForm', false);
       this.sendAction('update', business, params);
+    },
+    cancelBusinessForm() {
+      this.set('updateBusinessForm', false);
     }
   }
 });
