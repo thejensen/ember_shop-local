@@ -14,5 +14,9 @@ export default Ember.Route.extend({
       business.save();
       this.transitionTo('businesses', business);
     },
+    destroyBusiness(business) {
+      business.destroyRecord();
+      this.transitionTo('index')
+    }
   }
 });
