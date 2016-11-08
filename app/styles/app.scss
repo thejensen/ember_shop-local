@@ -48,6 +48,7 @@ li {
   border-radius: 0px !important;
 }
 
+
 .navbar:a {
   color: white;
 }
@@ -55,6 +56,7 @@ li {
 .dropdown {
   margin-left: 30px;
 }
+
 
 .dropdown-toggle {
   background-color: rgba(61, 61, 61, 0.0);
@@ -92,4 +94,53 @@ li {
   padding-top: 20px;
   margin-top: -20px;
   padding-bottom: 10px;
+}
+
+.biz-img {
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.biz-name {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+}
+
+.biz-site {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+}
+
+.biz-description {
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+  display: block;
+  margin: auto;
+  max-width: 700px;
+}
+
+.biz-info {
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+  // margin-left: 19%;
+  font-size: 120%;
+  line-height: 35px;
+}
+
+.biz {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  background-color: #A6CC8F;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  color: white;
 }

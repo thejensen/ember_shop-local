@@ -1,13 +1,26 @@
-<img src={{business.image}}> <br>
+<h1 class="biz">local business:</h1>
 
-{{business.name}} <br>
-{{business.website}} <br>
-{{business.description}} <br>
-{{business.hours}} <br>
-{{business.addr1}} <br>
-{{business.addr2}} <br>
-{{business.city}} <br>
-{{business.state}} <br>
-{{business.zip}} <br>
-{{business.phone}} <br>
-{{business.yearsInBusiness}} <br>
+<h2 class="biz-name">
+  {{business.name}} <br>
+</h2>
+
+<div class="biz-site">
+  <a href="https://flutterpdx.com/">flutterpdx.com</a><br>
+</div>
+
+
+<img class="biz-img" src={{business.image}}> <br>
+
+<div class="biz-description">
+  {{business.description}} <br>
+</div>
+
+<div class="biz-info">
+  Hours: {{business.hours}} <br>
+  Address: {{business.addr1}} {{business.addr2}} {{business.city}}, {{business.state}} {{business.zip}}<br>
+
+
+  Phone: {{business.phone}} <br>
+  Years in business: {{business.yearsInBusiness}} <br>
+</div>
+<hr>
