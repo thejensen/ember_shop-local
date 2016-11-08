@@ -1,0 +1,46 @@
+li {
+  font-family: 'Special Elite', cursive;
+}
+
+.jumbotron {
+  background-image: url("./../images/background.jpeg");
+  border-radius: 0px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 10rem;
+  padding-bottom: 80px;
+  padding-top: 170px;
+  color: white;
+}
+
+.navbar {
+  background-color: #9CD6EA;
+  font-size: 3rem;
+  margin-top: -30px;
+  border-radius: 0px !important;
+}
+
+.navbar:a {
+  color: white;
+}
+
+.dropdown {
+  margin-left: 30px;
+}
+
+.dropdown-toggle {
+  background-color: rgba(61, 61, 61, 0.0);
+  border-color: rgba(61, 61, 61, 0.0);
+  font-size: 3rem;
+  padding-top: 10px;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgba(126, 176, 95, 1);
+  border-color: rgba(126, 176, 95, 1);
+}

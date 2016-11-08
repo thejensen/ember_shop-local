@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <header class="jumbotron">
+    <h1>shop local</h1>
+  </header>
+
+  <div class="navbar">
+    <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+  <ul class="dropdown-menu">
+    <li>{{#link-to 'index'}}home{{/link-to}}</li>
+    <li>{{#link-to 'categories'}}categories{{/link-to}}</li>
+  </ul>
+</div>
+    <!-- {{#link-to 'index'}}home{{/link-to}}
+    {{#link-to 'categories'}}categories{{/link-to}} -->
+  </div>
+  {{outlet}}
+</div>
