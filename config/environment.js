@@ -25,7 +25,7 @@ module.exports = function(environment) {
       apiKey: "AIzaSyAPaSFoeGITJ0VwwBaryioDndfjAsJD6a8",
       authDomain: "shop-local-sj.firebaseapp.com",
       databaseURL: "https://shop-local-sj.firebaseio.com",
-      storageBucket: "",
+      storageBucket: "shop-local-sj.appspot.com"
     }
   };
 
