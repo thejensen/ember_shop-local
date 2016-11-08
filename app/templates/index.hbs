@@ -1,1 +1,4 @@
-{{outlet}}
+Hi!<br>
+{{#each model.categories as |category|}}
+  {{#link-to 'categories' category.id}}{{category.name}}{{/link-to}}
+{{/each}}

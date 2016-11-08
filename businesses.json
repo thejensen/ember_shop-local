@@ -1,4 +1,5 @@
-{ "businesses" : [{
+{
+  "businesses" : [{
     "name": "I've Been Framed",
     "hours": "Mon-Fri 9-6 & Sat 9-5",
     "address1": "4950 SE Foster Rd",
@@ -10,7 +11,10 @@
     "image": "http://www.ivebeenframedpdx.com/uploads/2/2/4/6/22462862/8140644.jpg?145",
     "yearsInBusiness": "60",
     "description": "I've Been Framed is a family owned, funky, fine art store & frame shop in the heart of SE Portland, OR. We have been around for over 60 years and people come from far and wide to check out our unique selection of art supplies and frames for their creative adventures. You can find friendly, knowledgeable staff and discount supplies at both of our locations any time!",
-    "website": "ivebeenframedpdx.com"
+    "website": "ivebeenframedpdx.com",
+    "categories": {
+      "category": "0"
+    }
   }, {
     "name": "Tender Loving Empire",
     "hours": "10:30-6:30 Daily",
@@ -23,48 +27,70 @@
     "image": "https://blog.etsy.com/en/files/2015/06/10577-SL_TLE_header2.jpg",
     "yearsInBusiness": "8",
     "description": "Tender Loving Empire is a lot of things. Mostly it’s a big idea. The idea is that art is not a competition: that a strong and deeply connected community of creative people begets an even stronger community-at-large. Our aim is and has always been to facilitate a web of visual artists, designers, musicians, craftspeople, and every creator in between—and then connect them to new friends, fans, listeners. Over the last eight years our big idea has turned into the release of over 60 albums and three brick-and-mortar stores that support a community of over 300 makers.",
-    "website": "https://tenderlovingempire.com/"
-}, {
-  "name": "Crafty Wonderland",
-  "hours": "10am - 6pm Monday through Saturday, 11am – 6pm Sunday",
-  "address1": "808 SW 10th Ave.",
-  "address2": "",
-  "city" : "Portland",
-  "state" : "OR",
-  "zip": "97205",
-  "phone": "503-224-9097",
-  "image": "http://s1.evcdn.com/images/block250/I0-001/033/852/672-3.jpeg_/crafty-wonderland-holiday-art-and-craf-72.jpeg",
-  "yearsInBusiness": "10",
-  "description": "With a rotating line up of talented vendors, Crafty Wonderland is the place to go to find the best handmade goods in the NW, as well as affordable work from talented visual artists. It’s an event meant to bring together crafty people with those who appreciate cool handmade items, to support artists, and to spread the joy of craft throughout our community.",
-  "website": "http://craftywonderland.com/"
-}, {
-  "name": "Powell's Books",
-  "hours": "9am - 11pm",
-  "address1": "1005 West Burnside Street",
-  "address2": "",
-  "city" : "Portland",
-  "state" : "OR",
-  "zip": "97205",
-  "phone": "(800) 878-7323)",
-  "image": "https://s-media-cache-ak0.pinimg.com/236x/26/1f/35/261f35ae3299d645412093a126fdc5ec.jpg",
-  "yearsInBusiness": "45",
-  "description": "With a rotating line up of talented vendors, Crafty Wonderland is the place to go to find the best handmade goods in the NW, as well as affordable work from talented visual artists. It’s an event meant to bring together crafty people with those who appreciate cool handmade items, to support artists, and to spread the joy of craft throughout our community.",
-  "website": "http://www.powells.com/"
-}, {
-  "name": "Flutter",
-  "hours": "sun-thu 11-6 • fri 11-7 • sat 10-7",
-  "address1": "3948 N Mississippi Ave",
-  "address2": "",
-  "city" : "Portland",
-  "state" : "OR",
-  "zip": "97277",
-  "phone": "(503)288-1649",
-  "image": "http://1.bp.blogspot.com/_sGk3hMblYUg/TUZjWTb7nNI/AAAAAAAAGQE/2wwoOSgNwn0/s640/flutter.jpg",
-  "yearsInBusiness": "10",
-  "description": "Flutter is a trove of delights located on North Mississippi Avenue in Portland, Oregon. Beneath the sparkly chandeliers lie beautifully arranged antique treasures, the latest art books, vinyl records, and sweetly packaged gifts including perfume, candles and locally made jewelry. It’s a lovely place to wander on a lazy afternoon; you can rifle through the trays of vibrant postcards, peruse the tarot decks or perhaps find your new favorite dress among the colorful racks of reworked and vintage clothes.",
-  "website": "https://flutterpdx.com/"
-}, {
-  
+    "website": "https://tenderlovingempire.com/",
+    "categories": {
+      "category": "0"
+    }
+  }, {
+    "name": "Crafty Wonderland",
+    "hours": "10am - 6pm Monday through Saturday, 11am – 6pm Sunday",
+    "address1": "808 SW 10th Ave.",
+    "address2": "",
+    "city" : "Portland",
+    "state" : "OR",
+    "zip": "97205",
+    "phone": "503-224-9097",
+    "image": "http://s1.evcdn.com/images/block250/I0-001/033/852/672-3.jpeg_/crafty-wonderland-holiday-art-and-craf-72.jpeg",
+    "yearsInBusiness": "10",
+    "description": "With a rotating line up of talented vendors, Crafty Wonderland is the place to go to find the best handmade goods in the NW, as well as affordable work from talented visual artists. It’s an event meant to bring together crafty people with those who appreciate cool handmade items, to support artists, and to spread the joy of craft throughout our community.",
+    "website": "http://craftywonderland.com/"
+  }, {
+    "name": "Powell's Books",
+    "hours": "9am - 11pm",
+    "address1": "1005 West Burnside Street",
+    "address2": "",
+    "city" : "Portland",
+    "state" : "OR",
+    "zip": "97205",
+    "phone": "(800) 878-7323)",
+    "image": "https://s-media-cache-ak0.pinimg.com/236x/26/1f/35/261f35ae3299d645412093a126fdc5ec.jpg",
+    "yearsInBusiness": "45",
+    "description": "With a rotating line up of talented vendors, Crafty Wonderland is the place to go to find the best handmade goods in the NW, as well as affordable work from talented visual artists. It’s an event meant to bring together crafty people with those who appreciate cool handmade items, to support artists, and to spread the joy of craft throughout our community.",
+    "website": "http://www.powells.com/"
+  }, {
+    "name": "Flutter",
+    "hours": "sun-thu 11-6 • fri 11-7 • sat 10-7",
+    "address1": "3948 N Mississippi Ave",
+    "address2": "",
+    "city" : "Portland",
+    "state" : "OR",
+    "zip": "97277",
+    "phone": "(503)288-1649",
+    "image": "http://1.bp.blogspot.com/_sGk3hMblYUg/TUZjWTb7nNI/AAAAAAAAGQE/2wwoOSgNwn0/s640/flutter.jpg",
+    "yearsInBusiness": "10",
+    "description": "Flutter is a trove of delights located on North Mississippi Avenue in Portland, Oregon. Beneath the sparkly chandeliers lie beautifully arranged antique treasures, the latest art books, vinyl records, and sweetly packaged gifts including perfume, candles and locally made jewelry. It’s a lovely place to wander on a lazy afternoon; you can rifle through the trays of vibrant postcards, peruse the tarot decks or perhaps find your new favorite dress among the colorful racks of reworked and vintage clothes.",
+    "website": "https://flutterpdx.com/"
+  }],
 
+
+  "categories" : [{
+    "name": "art",
+    "businesses": [{"0"}, {"1"}]
+    }, {
+      "name": "restaurant",
+      "businesses": [{
+        "name": "Flutter",
+        "hours": "sun-thu 11-6 • fri 11-7 • sat 10-7",
+        "address1": "3948 N Mississippi Ave",
+        "address2": "",
+        "city" : "Portland",
+        "state" : "OR",
+        "zip": "97277",
+        "phone": "(503)288-1649",
+        "image": "http://1.bp.blogspot.com/_sGk3hMblYUg/TUZjWTb7nNI/AAAAAAAAGQE/2wwoOSgNwn0/s640/flutter.jpg",
+        "yearsInBusiness": "10",
+        "description": "Flutter is a trove of delights located on North Mississippi Avenue in Portland, Oregon. Beneath the sparkly chandeliers lie beautifully arranged antique treasures, the latest art books, vinyl records, and sweetly packaged gifts including perfume, candles and locally made jewelry. It’s a lovely place to wander on a lazy afternoon; you can rifle through the trays of vibrant postcards, peruse the tarot decks or perhaps find your new favorite dress among the colorful racks of reworked and vintage clothes.",
+        "website": "https://flutterpdx.com/"
+    }]
   }]
 }

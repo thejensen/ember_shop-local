@@ -8,12 +8,12 @@ Must
 * As a user, I want to see a list of all local businesses
   * With seeded json data, and inputs from real local businesses ;)
     grocery, clothing, art, bookstores, haircut, spa, restaurant, mechanics, dry cleaners, bed and breakfast, hotel/motel/inn, recreation, theater, resale
-  * do a Google Places API call, use json data to seed database manually
   * Business: Name, hours, address, category/keyword, phone, image, years-in-business, description, website
   * category: name, image
 * As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
-* As a business, I want to submit my business to Shop-local IF it is not already on Shop-local
-* As a business, I want to see my business' page immediately after submitting my business to your website to see what it looks like (and edit).
+* As a business, I want to add my business to shop-local for review by shop-local staff
+  * FAQ section tells businesses there is a lag between submission and entry in database
+* As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
 * As an business, I want to be able update my business
   * https://emberobserver.com/addons/ember-modal-dialog
 * As a business, I want to delete my business
@@ -32,6 +32,10 @@ Nice to have
 * As a user, I want to bookmark my favorite local businesses
 * As a user/business, I want to share a business' unique URL with others
   * (see RESTful URL routing dilemma, with drilling down to a business page from categories or drilling down from a full list of businesses).
+* As a business, I want to submit my business to Shop-local IF it is not already on Shop-local
+  * We might need to check the database for duplicate names
+* As an admin, I can approve a new business for shop-local to be displayed on the site.
+
 
 ## Prerequisites
 

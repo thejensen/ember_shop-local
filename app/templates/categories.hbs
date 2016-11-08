@@ -1,0 +1,9 @@
+Hi! I'm the categories.hbs
+<hr>
+I'm the {{model.name}} object.
+
+{{new-business saveBusiness="saveBusiness"}}
+
+{{#each model.businesses as |business|}}
+  {{business.name}}
+{{/each}}

@@ -1,0 +1,13 @@
+{
+  "categories" : [{
+    "name": "art"
+  }, {
+    "name": "grocery"
+  }, {
+    "name": "clothing"
+  }, {
+    "name": "theater"
+  }, {
+    "name": "hotel"
+  }]
+}
