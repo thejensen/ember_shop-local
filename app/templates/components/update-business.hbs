@@ -1,0 +1,58 @@
+{{#if updateBusinessForm}}
+  <h4>Update {{business.name}}'s Profile</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name"}}
+      </div>
+      <div class="form-group">
+        <label for="hours">Hours</label>
+        {{input value=hours id="hours"}}
+      </div>
+      <div class="form-group">
+        <label for="addr1">Street Address</label>
+        {{input value=addr1 id="addr1"}}
+      </div>
+      <div class="form-group">
+        <label for="addr2">Apt/Suite/Floor</label>
+        {{input value=addr2 id="addr2"}}
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        {{input value=city id="city"}}
+      </div>
+      <div class="form-group">
+        <label for="state">State</label>
+        {{input value=state id="state"}}
+      </div>
+      <div class="form-group">
+        <label for="zip">Zipcode</label>
+        {{input value=zip id="zip"}}
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        {{input value=phone id="phone"}}
+      </div>
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+      <div class="form-group">
+        <label for="yearsInBusiness">Years in Business</label>
+        {{input value=yearsInBusiness id="yearsInBusiness"}}
+      </div>
+      <div class="form-group">
+        <label for="description">Describe your Business</label>
+        {{textarea value=description id="description"}}
+      </div>
+      <div class="form-group">
+        <label for="website">Website</label>
+        {{input value=website id="website"}}
+      </div>
+      <button {{action 'update' business}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateBusinessForm'}}>Update</button>
+{{/if}}
