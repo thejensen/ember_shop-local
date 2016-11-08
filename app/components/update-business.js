@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateBusinessForm: false,
+  isShowingModal: false,
   actions: {
-    updateBusinessForm() {
-      this.set('updateBusinessForm', true);
+    toggleModal() {
+      this.toggleProperty('isShowingModal');
     },
     update(business) {
       var params = {
@@ -25,7 +25,7 @@ export default Ember.Component.extend({
       this.sendAction('update', business, params);
     },
     cancelBusinessForm() {
-      this.set('updateBusinessForm', false);
+      this.set('isShowingModal', false);
     }
   }
 });

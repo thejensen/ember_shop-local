@@ -1,4 +1,9 @@
-{{#if updateBusinessForm}}
+<button class="btn btn-success"{{action "toggleModal"}}>Update Business</button>
+
+{{#if isShowingModal}}
+  {{#modal-dialog close="toggleModal"
+                  targetAttachment="center"
+                  translucentOverlay=true}}
   <h4>Update {{business.name}}'s Profile</h4>
   <div>
     <form>
@@ -50,10 +55,9 @@
         <label for="website">Website</label>
         {{input value=website id="website"}}
       </div>
-      <button {{action 'update' business}}>Save</button>
+      <button {{action 'update' business}}>Save Updates</button>
     </form>
     <button {{action 'cancelBusinessForm'}}>Cancel</button>
   </div>
-{{else}}
-  <button {{action 'updateBusinessForm'}}>Update</button>
+  {{/modal-dialog}}
 {{/if}}
