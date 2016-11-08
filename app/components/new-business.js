@@ -12,7 +12,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         hours: this.get('hours'),
         addr1: this.get('addr1'),
-        addr1: this.get('addr2'),
+        addr2: this.get('addr2'),
         city: this.get('city'),
         state: this.get('state'),
         zip: this.get('zip'),
