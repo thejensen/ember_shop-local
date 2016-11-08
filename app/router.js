@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('categories', {path: "/categories/:category_id"});
   this.route('businesses', {path: "/categories/:category_id/businesses/:businesses_id"});
   this.route('faq');
+
 });
 
 export default Router;
