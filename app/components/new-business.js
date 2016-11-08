@@ -12,8 +12,8 @@ export default Ember.Component.extend({
         hours: this.get('hours') ? this.get('hours') : "",
         addr1: this.get('addr1') ? this.get('addr1') : "",
         addr2: this.get('addr2') ? this.get('addr2') : "",
-        city: this.get('city') ? this.get('city') : "",
-        state: this.get('state') ? this.get('state') : "",
+        city: this.get('city') ? this.get('city') : "Portland",
+        state: this.get('state') ? this.get('state') : "OR",
         zip: this.get('zip') ? this.get('zip') : "",
         phone: this.get('phone') ? this.get('phone') : "",
         image: this.get('image') ? this.get('image') : "https://dummyimage.com/600x400/000/fff.png&text=??",
@@ -28,8 +28,7 @@ export default Ember.Component.extend({
       this.set('hours', "");
       this.set('addr1', "");
       this.set('addr2', "");
-      this.set('city', "");
-      this.set('state', "");
+      this.set('phone', "");
       this.set('zip', "");
       this.set('yearsInBusiness', "");
       this.set('description', "");
