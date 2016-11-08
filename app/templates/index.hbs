@@ -1,4 +1,9 @@
-Hi!<br>
-{{#each model.categories as |category|}}
-  {{#link-to 'categories' category.id}}{{category.name}}{{/link-to}}
-{{/each}}
+<h1 class="cat-title">browse categories:</h1>
+
+<div class="row">
+  <ul>
+    {{#each model.categories as |category|}}
+      {{category-tile category=category}}
+    {{/each}}
+  </ul>
+</div>

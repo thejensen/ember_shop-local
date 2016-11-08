@@ -5,32 +5,6 @@ li {
   font-family: 'Special Elite', cursive;
 }
 
-#foot h2 {
-  font-family: 'Pacifico', cursive;
-  color: white;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 4rem;
-}
-
-#foot p {
-  font-family: 'Special Elite', cursive;
-  color: #C6E9F4;
-  text-align: center;
-  font-size: 16px !important;
-}
-
-#head {
-  background-image: url("./../images/background.jpeg");
-  border-radius: 0px !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#foot {
-  background-color: #2C363C;
-    border-radius: 0px !important;
-}
 
 .jumbotron h1 {
   font-family: 'Pacifico', cursive;
@@ -129,7 +103,6 @@ li {
   margin-top: 40px;
   display: block;
   text-align: center;
-  // margin-left: 19%;
   font-size: 120%;
   line-height: 35px;
 }
@@ -143,4 +116,93 @@ li {
   margin-top: -20px;
   padding-bottom: 10px;
   color: white;
+}
+
+.cat-title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  background-color: #A6CC8F;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.cat {
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+.biz-button {
+  display: block;
+  margin: auto;
+  background-color: rgba(61, 61, 61, 0.0);
+  border-color: #FF7A62;
+  font-family: 'Special Elite', cursive;
+  padding: 20px;
+  font-size: 17px;
+  border-width: 2px;
+  color: #9CD6EA;
+}
+
+.biz-button:hover {
+  background-color: rgba(61, 61, 61, 0.0);
+  font-size: 21px;
+  padding: 17px;
+  border-color: #FF7A62;
+  border-width: 2px;
+  color: #9CD6EA;
+}
+
+.biz-img img {
+  max-width: 250px;
+}
+
+// .biz-img img:hover {
+//   max-width: 225px;
+//   padding: -75px;
+// }
+
+#cat-well {
+  background-color: white;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  border-color: #9CD6EA;
+}
+
+#biz-well {
+  background-color: white;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  border-color: #9CD6EA;
+}
+
+#foot h2 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+#foot p {
+  font-family: 'Special Elite', cursive;
+  color: #C6E9F4;
+  text-align: center;
+  font-size: 16px !important;
+  margin-bottom: 25px;
+}
+
+#head {
+  background-image: url("./../images/background.jpeg");
+  border-radius: 0px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foot {
+  background-color: #2C363C;
+  border-radius: 0px !important;
 }
