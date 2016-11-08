@@ -67,3 +67,29 @@ li {
   background-color: rgba(126, 176, 95, 1);
   border-color: rgba(126, 176, 95, 1);
 }
+
+.well {
+  background-color: #2C363C;
+}
+
+.question {
+  font-size: 3rem;
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+
+.answer {
+  font-family: 'Special Elite', cursive;
+  color: #A6CC8F;
+  font-size: 16px;
+}
+
+.faq {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 4rem;
+  background-color: #A6CC8F;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
