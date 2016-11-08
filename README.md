@@ -13,8 +13,8 @@ X * As a user, I want to see a list of all local businesses
 X * As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
 X * As a business, I want to add my business to shop-local for review by shop-local staff
   * FAQ section tells businesses there is a lag between submission and entry in database
-* As a user, I want to see a business profile to find out more about it
-* As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
+  * As a user, I want to see a business profile to find out more about it
+  * As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
 * As an business, I want to be able update my business
   * https://emberobserver.com/addons/ember-modal-dialog
 * As a business, I want to delete my business
