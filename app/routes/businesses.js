@@ -12,7 +12,7 @@ export default Ember.Route.extend({
         }
       });
       business.save();
-      this.transitionTo('index');
+      this.transitionTo('businesses', business);
     },
   }
 });
