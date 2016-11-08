@@ -5,5 +5,5 @@ I'm the {{model.name}} object.
 {{new-business saveBusiness="saveBusiness" category=model}}
 
 {{#each model.businesses as |business|}}
-  {{#link-to 'businesses' business.id}}{{business.name}}{{/link-to}}<br>
+  {{business.name}}<br>
 {{/each}}
