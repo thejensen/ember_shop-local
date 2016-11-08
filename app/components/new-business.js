@@ -11,10 +11,10 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         hours: this.get('hours'),
-        address1: this.get('addr1'),
-        address2: this.get('addr2'),
+        addr1: this.get('addr1'),
+        addr1: this.get('addr2'),
         city: this.get('city'),
-        state: parseInt(this.get('state')),
+        state: this.get('state'),
         zip: this.get('zip'),
         phone: this.get('phone'),
         image: this.get('image'),

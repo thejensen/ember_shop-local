@@ -22,10 +22,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyAWd8jYjL9Fb2emYm9IGhq1LHEGypJfhig",
-      authDomain: "shop-local-5d73e.firebaseapp.com",
-      databaseURL: "https://shop-local-5d73e.firebaseio.com",
-      storageBucket: "shop-local-5d73e.appspot.com"
+      apiKey: "AIzaSyAPaSFoeGITJ0VwwBaryioDndfjAsJD6a8",
+      authDomain: "shop-local-sj.firebaseapp.com",
+      databaseURL: "https://shop-local-sj.firebaseio.com",
+      storageBucket: "",
     }
   };
 
