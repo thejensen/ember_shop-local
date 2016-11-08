@@ -1,13 +1,13 @@
 {
   "categories" : [{
-    "name": "art"
+    "categoryName": "art"
   }, {
-    "name": "grocery"
+    "categoryName": "grocery"
   }, {
-    "name": "clothing"
+    "categoryName": "clothing"
   }, {
-    "name": "theater"
+    "categoryName": "theater"
   }, {
-    "name": "hotel"
+    "categoryName": "hotel"
   }]
 }

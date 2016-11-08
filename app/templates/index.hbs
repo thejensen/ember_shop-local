@@ -1,4 +1,4 @@
 Hi!<br>
-{{#each model.categories as |category|}}
+{{#each model as |category|}}
   {{#link-to 'categories' category.id}}{{category.name}}{{/link-to}}
 {{/each}}
