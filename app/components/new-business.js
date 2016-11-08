@@ -8,20 +8,6 @@ export default Ember.Component.extend({
     },
     saveBusiness() {
       var params = {
-<<<<<<< HEAD
-        name: this.get('name'),
-        hours: this.get('hours'),
-        addr1: this.get('addr1'),
-        addr2: this.get('addr2'),
-        city: this.get('city'),
-        state: this.get('state'),
-        zip: this.get('zip'),
-        phone: this.get('phone'),
-        image: this.get('image'),
-        yearsInBusiness: this.get('yearsInBusiness'),
-        description: this.get('description'),
-        website: this.get('website'),
-=======
         name: this.get('name') ? this.get('name') : "",
         hours: this.get('hours') ? this.get('hours') : "",
         addr1: this.get('addr1') ? this.get('addr1') : "",
@@ -34,7 +20,6 @@ export default Ember.Component.extend({
         yearsInBusiness: this.get('yearsInBusiness') ? this.get('yearsInBusiness') : "",
         description: this.get('description') ? this.get('description') : "",
         website: this.get('website') ? this.get('website') : "",
->>>>>>> 3048a9fd10ad341508daed1c5d41a5a00cc60068
         category: this.get('category')
       };
       this.set('isShowingModal', false);
