@@ -118,6 +118,18 @@ li {
   color: white;
 }
 
+.categories-header {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  background-color: #A6CC8F;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
 .cat-title {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -205,4 +217,8 @@ li {
 #foot {
   background-color: #2C363C;
   border-radius: 0px !important;
+}
+
+#model-overlays {
+  padding: 30px;
 }
