@@ -6,11 +6,6 @@ This README outlines the details of collaborating on this Ember application.
 
 
 DONE
-* As a user, I want to see a list of all local businesses
-  * With seeded json data, and inputs from real local businesses
-    grocery, clothing, art, bookstores, haircut, spa, restaurant, mechanics, dry cleaners, bed and breakfast, hotel/motel/inn, recreation, theater, resale
-  * Business: Name, hours, address, category/keyword, phone, image, years-in-business, description, website
-  * category: name, image
 * As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
 * As a business, I want to add my business to shop-local for review by shop-local staff
 * FAQ section tells businesses there is a lag between submission and entry in database
@@ -20,16 +15,21 @@ DONE
   * https://emberobserver.com/addons/ember-modal-dialog
   * As a user/business, I want to share a business' unique URL with others
     * handled by the push ids given to businesses in firebase when they are added to database. We route to the businesses/:businesses_id that is unique to their firebase entry
+* As a business, I want to delete my business
+
 
 Must
+* As a user, I want to see a list of all local businesses
 * As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
-* As a business, I want to delete my business
 * As a business, I want to know what's happening with my profile application when I submit one to shop-local
+  * Modal, that says the business' application has been received
 * As an admin, I want to add businesses to the shop-local database
+* Add cancel buttons to each add/edit modals
 
 Nice to have
 * HOST Site on Heroku
 * Build shop-local api
+  * Perry says meeeeh might hard... but may be ok to export xml, but back away slowly
 * As a user, I want to search a business by name
 * As a user/business, I want shop-local to have all the businesses that are in Google Places already
   * https://developers.google.com/places/web-service/search
