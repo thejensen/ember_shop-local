@@ -4,22 +4,28 @@ This README outlines the details of collaborating on this Ember application.
 
 ## User stories
 
-Must
-X * As a user, I want to see a list of all local businesses
+
+DONE
+* As a user, I want to see a list of all local businesses
   * With seeded json data, and inputs from real local businesses
     grocery, clothing, art, bookstores, haircut, spa, restaurant, mechanics, dry cleaners, bed and breakfast, hotel/motel/inn, recreation, theater, resale
   * Business: Name, hours, address, category/keyword, phone, image, years-in-business, description, website
   * category: name, image
-X * As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
-X * As a business, I want to add my business to shop-local for review by shop-local staff
-X  * FAQ section tells businesses there is a lag between submission and entry in database
-X  * As a user, I want to see a business profile to find out more about it
-  * As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
+* As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
+* As a business, I want to add my business to shop-local for review by shop-local staff
+* FAQ section tells businesses there is a lag between submission and entry in database
+* FAQ section tells businesses there is a lag between submission and entry in database
+* As a user, I want to see a business profile to find out more about it
 * As an business, I want to be able update my business
   * https://emberobserver.com/addons/ember-modal-dialog
+  * As a user/business, I want to share a business' unique URL with others
+    * handled by the push ids given to businesses in firebase when they are added to database. We route to the businesses/:businesses_id that is unique to their firebase entry
+
+Must
+* As a business, I want to see what my business' page might look like immediately after submitting my business to your website to see what it looks like (and edit).
 * As a business, I want to delete my business
-X * As a user/business, I want to share a business' unique URL with others
-  * handled by the push ids given to businesses in firebase when they are added to database. We route to the businesses/:businesses_id that is unique to their firebase entry
+* As a business, I want to know what's happening with my profile application when I submit one to shop-local
+* As an admin, I want to add businesses to the shop-local database
 
 Nice to have
 * HOST Site on Heroku
