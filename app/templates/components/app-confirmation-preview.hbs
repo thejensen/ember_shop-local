@@ -1,25 +1,24 @@
-{{#each businessAppPreview.businesses as |business|}}
-  <h2 class="biz-name">
-    {{business.name}} <br>
-  </h2>
+  {{businessAppPreview.businesses.name}}
+    <h2 class="biz-name">
+      {{businessAppPreview.businesses.description}} <br>
+    </h2>
 
-  <div class="biz-site">
-    <a href={{business.website}}>{{business.website}}</a><br>
-  </div>
-
-
-  <img class="biz-img" src={{business.image}}> <br>
-
-  <div class="biz-description">
-    {{business.description}} <br>
-  </div>
-
-  <div class="biz-info">
-    Hours: {{business.hours}} <br>
-    Address: {{business.addr1}} {{business.addr2}} {{business.city}}, {{business.state}} {{business.zip}}<br>
+    <div class="biz-site">
+      <a href={{businessAppPreview.businesses.website}}>{{businessAppPreview.businesses.website}}</a><br>
+    </div>
 
 
-    Phone: {{business.phone}} <br>
-    Years in business: {{business.yearsInBusiness}} <br>
-  </div>
-{{/each}}
+    <img class="biz-img" src={{businessAppPreview.businesses.image}}> <br>
+
+    <div class="biz-description">
+      {{businessAppPreview.businesses.description}} <br>
+    </div>
+
+    <div class="biz-info">
+      Hours: {{businessAppPreview.businesses.hours}} <br>
+      Address: {{businessAppPreview.businesses.addr1}} {{businessAppPreview.businesses.addr2}} {{businessAppPreview.businesses.city}}, {{businessAppPreview.businesses.state}} {{businessAppPreview.businesses.zip}}<br>
+
+
+      Phone: {{businessAppPreview.businesses.phone}} <br>
+      Years in business: {{businessAppPreview.businesses.yearsInBusiness}} <br>
+    </div>
