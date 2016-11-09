@@ -444,6 +444,12 @@ label {
   border-radius: 0px !important;
 }
 
-#model-overlays {
-  padding: 30px;
+#edit-modal {
+  padding: 50px !important;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+#cancelBtn {
+  margin-bottom: 50px;
 }
