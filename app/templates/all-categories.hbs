@@ -1,0 +1,9 @@
+<h1 class="cat-title">browse categories:</h1>
+
+<div class="row">
+  <ul>
+    {{#each model.categories as |category|}}
+      {{category-tile category=category}}
+    {{/each}}
+  </ul>
+</div>

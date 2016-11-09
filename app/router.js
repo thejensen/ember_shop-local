@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('protected');
   this.route('app-confirmation');
   this.route('businessList');
+  this.route('allCategories');
 });
 
 export default Router;

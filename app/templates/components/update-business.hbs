@@ -5,7 +5,7 @@
                   targetAttachment="center"
                   translucentOverlay=true}}
   <h4 class="update-title">Update {{business.name}}'s Profile</h4>
-  <div>
+  <div id="edit-modal">
     <form class="update-biz-form">
       <div class="form-group">
         <label for="name">Name</label>
@@ -65,7 +65,7 @@
       </div>
       <button {{action 'update' business}}>Save Updates</button>
     </form>
-    <button {{action 'cancelBusinessForm'}}>Cancel</button>
+    <button id="cancelBtn" {{action 'cancelBusinessForm'}}>Cancel</button>
   </div>
   {{/modal-dialog}}
 {{/if}}
