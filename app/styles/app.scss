@@ -305,9 +305,96 @@ label {
   margin-top: 50px;
 }
 
+.new-biz-head {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+}
+
 .update-title {
   font-family: 'Special Elite', cursive;
 }
+
+.carousel-inner {
+  max-width: 750px;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
+  margin-top: 20px;
+  max-height: 400px;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  height: 400px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.feature-block {
+  background-color: #2C363C;
+  margin-left: 150px;
+  margin-right: -135px;
+  margin-top: 20px;
+  color: white;
+  padding-left: 40px;
+  font-family: 'Special Elite', cursive;
+  min-height: 400px;
+}
+
+.feature-biz-info {
+  background-color: #FBFBFB;
+  margin-left: -25px;
+  min-height: 200px;
+  color: #2C363C;
+  padding: 20px;
+}
+
+.feature-biz-name {
+  color: #9CD6EA;
+}
+
+// .glyphicon-chevron-right {
+//   margin-right: 200px!important;
+// }
+//
+// .glyphicon-chevron-left {
+//   margin-left: 200px!important;
+// }
+
+.feature-title {
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.feature-site {
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+.feature-name {
+  font-family: 'Pacifico', cursive;
+  color: #2C363C;
+  text-align: center;
+}
+
+// .carousel-caption h3 {
+//   // float: left;
+//   font-family: 'Pacifico', cursive;
+//   font-size: 4rem;
+//   color: white;
+//   margin-bottom: 300px;
+//   margin-left: -500px;
+// }
 
 // .biz-img img:hover {
 //   max-width: 225px;
