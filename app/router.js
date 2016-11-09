@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('faq');
   this.route('login');
   this.route('protected');
+  this.route('app-confirmation');
 });
 
 export default Router;
