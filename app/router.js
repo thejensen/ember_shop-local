@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('app-confirmation');
   this.route('businessList');
   this.route('allCategories');
+  this.route('about');
 });
 
 export default Router;
