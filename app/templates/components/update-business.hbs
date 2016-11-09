@@ -9,51 +9,51 @@
     <form>
       <div class="form-group">
         <label for="name">Name</label>
-        {{input value=name id="name"}}
+        {{input value=business.name id="name"}}
       </div>
       <div class="form-group">
         <label for="hours">Hours</label>
-        {{input value=hours id="hours"}}
+        {{input value=business.hours id="hours"}}
       </div>
       <div class="form-group">
         <label for="addr1">Street Address</label>
-        {{input value=addr1 id="addr1"}}
+        {{input value=business.addr1 id="addr1"}}
       </div>
       <div class="form-group">
         <label for="addr2">Apt/Suite/Floor</label>
-        {{input value=addr2 id="addr2"}}
+        {{input value=business.addr2 id="addr2"}}
       </div>
       <div class="form-group">
         <label for="city">City</label>
-        {{input value=city id="city"}}
+        {{input value=business.city id="city"}}
       </div>
       <div class="form-group">
         <label for="state">State</label>
-        {{input value=state id="state"}}
+        {{input value=business.state id="state"}}
       </div>
       <div class="form-group">
         <label for="zip">Zipcode</label>
-        {{input value=zip id="zip"}}
+        {{input value=business.zip id="zip"}}
       </div>
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        {{input value=phone id="phone"}}
+        {{input value=business.phone id="phone"}}
       </div>
       <div class="form-group">
         <label for="image">Image URL</label>
-        {{input value=image id="image"}}
+        {{input value=business.image id="image"}}
       </div>
       <div class="form-group">
         <label for="yearsInBusiness">Years in Business</label>
-        {{input value=yearsInBusiness id="yearsInBusiness"}}
+        {{input value=business.yearsInBusiness id="yearsInBusiness"}}
       </div>
       <div class="form-group">
         <label for="description">Describe your Business</label>
-        {{textarea value=description id="description"}}
+        {{textarea value=business.description id="description"}}
       </div>
       <div class="form-group">
         <label for="website">Website</label>
-        {{input value=website id="website"}}
+        {{input value=business.website id="website"}}
       </div>
       <button {{action 'update' business}}>Save Updates</button>
     </form>
