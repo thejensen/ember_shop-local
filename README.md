@@ -26,6 +26,7 @@ Must
 * As an admin, I want to add businesses to the shop-local database
 * Add cancel buttons to each add/edit modals
 
+
 Nice to have
 * HOST Site on Heroku
 * Build shop-local api

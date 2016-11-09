@@ -7,9 +7,10 @@ export default Ember.Route.extend({
 
   actions: {
     saveBusiness(params) {
+      console.log(params);
       var newBusiness = this.store.createRecord('business', params);
-      console.log(newBusiness);
       var category = params.category;
+      console.log(category);
       category.get('businesses').addObject(newBusiness);
       newBusiness.save().then(function() {
         return category.save();

@@ -5,6 +5,32 @@ li {
   font-family: 'Special Elite', cursive;
 }
 
+#foot h2 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+#foot p {
+  font-family: 'Special Elite', cursive;
+  color: #C6E9F4;
+  text-align: center;
+  font-size: 16px !important;
+}
+
+#head {
+  background-image: url("./../images/background.jpeg");
+  border-radius: 0px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foot {
+  background-color: #2C363C;
+    border-radius: 0px !important;
+}
 
 .jumbotron h1 {
   font-family: 'Pacifico', cursive;

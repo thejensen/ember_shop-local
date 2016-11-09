@@ -1,12 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  businessAppPreview: Ember.inject.service(),
   isShowingModal: false,
   actions: {
     toggleModal() {
       this.toggleProperty('isShowingModal');
     },
-    update(business) {
+    saveBusiness(business) {
       var params = {
         name: this.get('name') ? this.get('name') : "",
         hours: this.get('hours') ? this.get('hours') : "",
@@ -21,11 +22,22 @@ export default Ember.Component.extend({
         description: this.get('description') ? this.get('description') : "",
         website: this.get('website') ? this.get('website') : ""
       };
-      this.set('updateBusinessForm', false);
-      this.sendAction('update', business, params);
-    },
-    cancelBusinessForm() {
       this.set('isShowingModal', false);
+      this.set('name', "");
+      this.set('hours', "");
+      this.set('addr1', "");
+      this.set('addr2', "");
+      this.set('phone', "");
+      this.set('zip', "");
+      this.set('yearsInBusiness', "");
+      this.set('description', "");
+      this.set('website', "");
+      this.get('businessAppPreview').add(params).then(function () {
+        this.transitionTo('app-confirmation');
+      })
+    },
+    cancel() {
+      this.toggleProperty('isShowingModal');
     }
   }
 });

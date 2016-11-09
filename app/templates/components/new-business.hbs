@@ -10,17 +10,17 @@
     <form {{action 'saveBusiness' on="submit"}}>
       <div class="form-group">
         <label for="name">Name</label>
-        {{input value=name id="name"}}
+        {{input value=name id="name" required="required"}}
       </div>
 
       <div class="form-group">
         <label for="hours">Hours</label>
-        {{input value=hours id="hours"}}
+        {{input value=hours id="hours" required="required"}}
       </div>
 
       <div class="form-group">
         <label for="addr1">Street Address</label>
-        {{input value=addr1 id="addr1"}}
+        {{input value=addr1 id="addr1" required="required"}}
       </div>
 
       <div class="form-group">
@@ -30,22 +30,22 @@
 
       <div class="form-group">
         <label for="city">City</label>
-        {{input value=city id="city"}}
+        {{input value=city id="city" required="required"}}
       </div>
 
       <div class="form-group">
         <label for="state">State</label>
-        {{input value=state id="state"}}
+        {{input value=state id="state" required="required"}}
       </div>
 
       <div class="form-group">
         <label for="zip">Zipcode</label>
-        {{input value=zip id="zip"}}
+        {{input value=zip id="zip" required="required"}}
       </div>
 
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        {{input value=phone id="phone"}}
+        {{input value=phone id="phone" required="required"}}
       </div>
 
       <div class="form-group">
@@ -60,7 +60,7 @@
 
       <div class="form-group">
         <label for="description">Describe your Business</label>
-        {{textarea value=description id="description"}}
+        {{textarea value=description id="description" required="required"}}
       </div>
 
       <div class="form-group">
@@ -68,7 +68,7 @@
         {{input value=website id="website"}}
       </div>
 
-      <button class="btn btn-success">Save</button>
+      <button type="submit" class="btn btn-success">Save</button>
     </form>
   </div>
   {{/modal-dialog}}

@@ -1,0 +1,89 @@
+<button class="btn btn-success"{{action "toggleModal"}}>Membership Application</button>
+
+<h4><em>Please fill out all of the fields below.</em></h4>
+
+{{#if isShowingModal}}
+  {{#modal-dialog close="toggleModal"
+                  targetAttachment="center"
+                  translucentOverlay=true}}
+  <h1>Membership Application</h1>
+  <div id="application">
+    <form {{action 'saveBusiness' on="submit"}}>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" class="form-control" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="hours">Hours</label>
+        {{input value=hours id="hours" class="form-control"  required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="addr1">Street Address</label>
+        {{input value=addr1 id="addr1" class="form-control"  required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="addr2">Apt/Suite/Floor</label>
+        {{input value=addr2 class="form-control"  id="addr2"}}
+      </div>
+
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="form-group">
+            <label for="city">City</label>
+            {{input value=city class="form-control"  id="city" required="required"}}
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="form-group">
+            <label for="state">State</label>
+            {{input value=state class="form-control" id="state" required="required"}}
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="form-group">
+            <label for="zip">Zipcode</label>
+            {{input value=zip class="form-control" id="zip" required="required"}}
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        {{input value=phone  class="form-control" id="phone" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image class="form-control"  id="image"}}
+      </div>
+
+      <div class="form-group">
+        <label for="yearsInBusiness">Years in Business</label>
+        {{input value=yearsInBusiness class="form-control"  id="yearsInBusiness"}}
+      </div>
+
+      <div class="form-group">
+        <label for="description">Describe your Business</label>
+        {{textarea value=description class="form-control"  id="description" required="required"}}
+      </div>
+
+      <div class="form-group">
+        <label for="website">Website</label>
+        {{input value=website class="form-control"  id="website"}}
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <button class="btn btn-success">Submit</button>
+        </div>
+        <div class="col-sm-3">
+          <button {{action 'cancel'}} class="btn btn-warning">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  {{/modal-dialog}}
+{{/if}}
