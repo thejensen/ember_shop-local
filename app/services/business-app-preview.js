@@ -4,7 +4,7 @@ export default Ember.Service.extend({
   businesses: [],
 
   add(params) {
-    this.get('businesses').pushObject(params);
+    this.set('businesses', params);
     console.log(this.get('businesses'));
   }
 });
