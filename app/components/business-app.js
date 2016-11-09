@@ -33,14 +33,10 @@ export default Ember.Component.extend({
       this.set('description', "");
       this.set('website', "");
       this.get('businessAppPreview').add(params);
+      this.sendAction('transitionToAppConfirmation');
     },
     cancel() {
       this.toggleProperty('isShowingModal');
     },
-    transitionToAppConfirmation() {
-      this.sendAction('transitionToAppConfirmation');
-      console.log('sendcation should be sending');
-      this.toggleProperty('isShowingModal');
-    }
   }
 });

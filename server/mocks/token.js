@@ -3,6 +3,7 @@ module.exports = function(app) {
   var tokenRouter = express.Router();
 
   tokenRouter.post('/token', function(req, res) {
+    console.log(req);
     if (req.body.grant_type === 'password') {
       if (req.body.username === 'letme' && req.body.password === 'in') {
         res.status(200).send('{ "access_token": "secret token!" }');
@@ -13,6 +14,5 @@ module.exports = function(app) {
       res.status(400).send('{ "error": "unsupported_grant_type" }');
     }
   });
-
   app.use('/', tokenRouter);
 };

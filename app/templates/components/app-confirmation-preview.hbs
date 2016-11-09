@@ -1,0 +1,25 @@
+{{#each businessAppPreview.businesses as |business|}}
+  <h2 class="biz-name">
+    {{business.name}} <br>
+  </h2>
+
+  <div class="biz-site">
+    <a href={{business.website}}>{{business.website}}</a><br>
+  </div>
+
+
+  <img class="biz-img" src={{business.image}}> <br>
+
+  <div class="biz-description">
+    {{business.description}} <br>
+  </div>
+
+  <div class="biz-info">
+    Hours: {{business.hours}} <br>
+    Address: {{business.addr1}} {{business.addr2}} {{business.city}}, {{business.state}} {{business.zip}}<br>
+
+
+    Phone: {{business.phone}} <br>
+    Years in business: {{business.yearsInBusiness}} <br>
+  </div>
+{{/each}}

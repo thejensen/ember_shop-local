@@ -4,7 +4,6 @@ This README outlines the details of collaborating on this Ember application.
 
 ## User stories
 
-
 DONE
 * As a user, I want to drill lists of businesses down by category (e.g. food, spa, haircut)
 * As a business, I want to add my business to shop-local for review by shop-local staff
