@@ -9,6 +9,7 @@
       <ul class="dropdown-menu">
         <li>{{#link-to 'index'}}home{{/link-to}}</li>
         <li>{{#link-to 'faq'}}faq{{/link-to}}</li>
+        <li>{{#link-to 'businessList'}}business list{{/link-to}}</li>
         <li>
           {{#if session.isAuthenticated}}
             <a {{action 'invalidateSession'}}>logout</a>
