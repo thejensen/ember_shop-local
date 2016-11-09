@@ -44,6 +44,9 @@
     "ember-simple-auth-token": "1.2.0",
     "ember-welcome-page": "^1.0.1",
     "emberfire": "2.0.4",
-    "loader.js": "^4.0.1"
+    "express": "^4.14.0",
+    "glob": "^4.5.3",
+    "loader.js": "^4.0.1",
+    "morgan": "^1.7.0"
   }
 }

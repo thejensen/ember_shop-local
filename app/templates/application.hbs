@@ -11,11 +11,9 @@
         <li>{{#link-to 'faq'}}faq{{/link-to}}</li>
         <li>
           {{#if session.isAuthenticated}}
-            <button {{action 'logout'}}>logout</button>
+            <a {{action 'invalidateSession'}}>Logout</a>
           {{else}}
-            {{#link-to 'login'}}
-              login
-            {{/link-to}}
+            {{#link-to 'login'}}Login{{/link-to}}
           {{/if}}
         </li>
       </ul>
