@@ -309,6 +309,44 @@ label {
   font-family: 'Special Elite', cursive;
 }
 
+.carousel-inner {
+  max-width: 750px;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
+  margin-top: 20px;
+  max-height: 400px;
+}
+
+.feature-title {
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.feature-site {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  color: #2C363C;
+}
+
+.feature-name {
+  font-family: 'Pacifico', cursive;
+  color: #2C363C;
+  text-align: center; 
+}
+
+// .carousel-caption h3 {
+//   // float: left;
+//   font-family: 'Pacifico', cursive;
+//   font-size: 4rem;
+//   color: white;
+//   margin-bottom: 300px;
+//   margin-left: -500px;
+// }
+
 // .biz-img img:hover {
 //   max-width: 225px;
 //   padding: -75px;
