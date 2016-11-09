@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('login');
   this.route('protected');
   this.route('app-confirmation');
+  this.route('businessList');
 });
 
 export default Router;
