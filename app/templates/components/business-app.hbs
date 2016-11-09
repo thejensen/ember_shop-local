@@ -1,4 +1,4 @@
-<button class="btn btn-success"{{action "toggleModal"}}>Membership Application</button>
+<button class="biz-app-btn btn btn-primary"{{action "toggleModal"}}>membership application</button>
 
 <h4><em>Please fill out all of the fields below.</em></h4>
 
@@ -6,7 +6,7 @@
   {{#modal-dialog close="toggleModal"
                   targetAttachment="center"
                   translucentOverlay=true}}
-  <h1>Membership Application</h1>
+  <h1 class="mem-app">Membership Application:</h1>
   <div id="application">
     <form {{action 'saveBusiness' on="submit"}}>
       <div class="form-group">
