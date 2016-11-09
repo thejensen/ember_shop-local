@@ -5,12 +5,21 @@
 
   <div class="navbar">
     <div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
-  <ul class="dropdown-menu">
-    <li>{{#link-to 'index'}}home{{/link-to}}</li>
-    <li>{{#link-to 'faq'}}faq{{/link-to}}</li>
-  </ul>
-</div>
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+      <ul class="dropdown-menu">
+        <li>{{#link-to 'index'}}home{{/link-to}}</li>
+        <li>{{#link-to 'faq'}}faq{{/link-to}}</li>
+        <li>
+          {{#if session.isAuthenticated}}
+            <button {{action 'logout'}}>logout</button>
+          {{else}}
+            {{#link-to 'login'}}
+              login
+            {{/link-to}}
+          {{/if}}
+        </li>
+      </ul>
+    </div>
 
   </div>
   {{outlet}}
