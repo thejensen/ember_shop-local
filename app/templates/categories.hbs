@@ -1,9 +1,11 @@
-Hi! I'm the categories.hbs
-<hr>
-I'm the {{model.name}} object.
+<h1 class="categories-header">{{model.name}}</h1>
 
 {{new-business saveBusiness="saveBusiness" category=model}}
 
-{{#each model.businesses as |business|}}
-  {{#link-to 'businesses' business.id}}{{business.name}}{{/link-to}}<br>
-{{/each}}
+<div class="row">
+  <ul>
+    {{#each model.businesses as |business|}}
+      {{business-tile business=business}}
+    {{/each}}
+  </ul>
+</div>

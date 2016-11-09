@@ -1,9 +1,10 @@
-<button class="btn btn-success"{{action "toggleModal"}}>Add a Business</button>
+<button class="btn btn-success biz-button"{{action "toggleModal"}}>create profile</button>
+<br><br>
 
 {{#if isShowingModal}}
   {{#modal-dialog close="toggleModal"
-                  targetAttachment="center"
-                  translucentOverlay=true}}
+    targetAttachment="center"
+    translucentOverlay=true}}
   <h1>New Business</h1>
   <div>
     <form {{action 'saveBusiness' on="submit"}}>

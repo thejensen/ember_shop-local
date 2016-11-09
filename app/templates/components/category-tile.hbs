@@ -1,0 +1,9 @@
+  <div class="col-sm-4 category-tile">
+    <div class="well" id="cat-well">
+      {{#link-to 'categories' category.id}}{{category.image}}{{/link-to}}
+      <img src="./../images/{{category.name}}.png"><br>
+      <div class="cat">
+        {{#link-to 'categories' category.id}}{{category.name}}{{/link-to}}
+      </div>
+    </div>
+  </div>
