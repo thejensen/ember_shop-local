@@ -7,7 +7,7 @@ export default Ember.Component.extend({
     toggleModal() {
       this.toggleProperty('isShowingModal');
     },
-    saveBusiness(business) {
+    saveBusiness() {
       var params = {
         name: this.get('name') ? this.get('name') : "",
         hours: this.get('hours') ? this.get('hours') : "",
@@ -32,14 +32,11 @@ export default Ember.Component.extend({
       this.set('yearsInBusiness', "");
       this.set('description', "");
       this.set('website', "");
+      this.sendAction('transitionToAppConfirmation');
       this.get('businessAppPreview').add(params);
+      this.sendAction('transitionToAppConfirmation');
     },
     cancel() {
-      this.toggleProperty('isShowingModal');
-    },
-    transitionToAppConfirmation() {
-      this.sendAction('transitionToAppConfirmation');
-      console.log('sendcation should be sending');
       this.toggleProperty('isShowingModal');
     }
   }
