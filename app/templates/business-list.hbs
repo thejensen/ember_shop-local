@@ -1,3 +1,8 @@
-{{#each model as |business|}}
-  {{business-tile business=business}}
-{{/each}}
+
+<div class="row">
+  <ul>
+     {{#each model as |business|}}
+      {{business-tile business=business}}
+    {{/each}}
+  </ul>
+</div>
