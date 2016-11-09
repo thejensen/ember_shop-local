@@ -5,6 +5,10 @@ li {
   font-family: 'Special Elite', cursive;
 }
 
+label {
+    font-family: 'Special Elite', cursive;
+}
+
 #foot h2 {
   font-family: 'Pacifico', cursive;
   color: white;
@@ -168,6 +172,28 @@ li {
   margin-bottom: 25px;
 }
 
+.biz-list-title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  background-color: #A6CC8F;
+  padding-top: 20px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.footer-bar {
+  text-align: center;
+  font-size: 4rem;
+  background-color: #9CD6EA;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+  color: #9CD6EA;
+}
+
 .cat {
   font-size: 2rem;
   margin-top: 15px;
@@ -229,10 +255,60 @@ li {
   color: white;
 }
 
+.delete-btn {
+  display: block;
+  margin: auto;
+  background-color: rgba(61, 61, 61, 0.0);
+  border-color: #9CD6EA;
+  color: #9CD6EA;
+  font-family: 'Special Elite', cursive;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  background-color: #FF7A62;
+  border-color: #FF7A62;
+}
+
+.update-btn {
+  display: block;
+  margin: auto;
+  background-color: rgba(61, 61, 61, 0.0);
+  border-color: #9CD6EA;
+  color: #9CD6EA;
+  font-family: 'Special Elite', cursive;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.update-btn:hover {
+  background-color: #9CD6EA;
+  border-color: #9CD6EA;
+}
+
 .mem-app {
   font-family: 'Pacifico', cursive;
   color: #2C363C;
 }
+
+.update-biz-form {
+  padding: 40px;
+}
+
+.new-biz-form {
+  padding: 40px;
+}
+
+.app-form {
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.update-title {
+  font-family: 'Special Elite', cursive;
+}
+
 // .biz-img img:hover {
 //   max-width: 225px;
 //   padding: -75px;

@@ -6,66 +6,66 @@
     targetAttachment="center"
     translucentOverlay=true}}
   <h1>New Business</h1>
-  <div>
+  <div class="new-biz-form">
     <form {{action 'saveBusiness' on="submit"}}>
       <div class="form-group">
         <label for="name">Name</label>
-        {{input value=name id="name" required="required"}}
+        {{input value=name id="name" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="hours">Hours</label>
-        {{input value=hours id="hours" required="required"}}
+        {{input value=hours id="hours" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="addr1">Street Address</label>
-        {{input value=addr1 id="addr1" required="required"}}
+        {{input value=addr1 id="addr1" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="addr2">Apt/Suite/Floor</label>
-        {{input value=addr2 id="addr2"}}
+        {{input value=addr2 id="addr2" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="city">City</label>
-        {{input value=city id="city" required="required"}}
+        {{input value=city id="city" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="state">State</label>
-        {{input value=state id="state" required="required"}}
+        {{input value=state id="state" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="zip">Zipcode</label>
-        {{input value=zip id="zip" required="required"}}
+        {{input value=zip id="zip" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        {{input value=phone id="phone" required="required"}}
+        {{input value=phone id="phone" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="image">Image URL</label>
-        {{input value=image id="image"}}
+        {{input value=image id="image" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="yearsInBusiness">Years in Business</label>
-        {{input value=yearsInBusiness id="yearsInBusiness"}}
+        {{input value=yearsInBusiness id="yearsInBusiness" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="description">Describe your Business</label>
-        {{textarea value=description id="description" required="required"}}
+        {{textarea value=description id="description" required="required" class="form-control"}}
       </div>
 
       <div class="form-group">
         <label for="website">Website</label>
-        {{input value=website id="website"}}
+        {{input value=website id="website" class="form-control"}}
       </div>
 
       <button type="submit" class="btn btn-success">Save</button>

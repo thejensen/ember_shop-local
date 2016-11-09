@@ -9,7 +9,8 @@
       <ul class="dropdown-menu">
         <li>{{#link-to 'index'}}home{{/link-to}}</li>
         <li>{{#link-to 'faq'}}faq{{/link-to}}</li>
-        <li>{{#link-to 'businessList'}}business list{{/link-to}}</li>
+        <li>{{#link-to 'businessList'}}businesss{{/link-to}}</li>
+        <li>{{#link-to 'index'}}categories{{/link-to}}</li>
         <li>
           {{#if session.isAuthenticated}}
             <a {{action 'invalidateSession'}}>logout</a>
@@ -25,6 +26,7 @@
   {{outlet}}
   <br><br>
   <footer class="footer">
+    <h1 class="footer-bar">hi</h1>
     <div class="jumbotron" id="foot">
       <h2>Own a business?</h2>
       <p>Join the movement for independent businesses.<br>
