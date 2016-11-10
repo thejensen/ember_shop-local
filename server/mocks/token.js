@@ -3,7 +3,8 @@ module.exports = function(app) {
   var tokenRouter = express.Router();
 
   tokenRouter.post('/token', function(req, res) {
-    console.log(req);
+    debugger;
+    console.log("here");
     if (req.body.grant_type === 'password') {
       if (req.body.username === 'letme' && req.body.password === 'in') {
         res.status(200).send('{ "access_token": "secret token!" }');
