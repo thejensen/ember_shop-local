@@ -9,32 +9,10 @@ label {
     font-family: 'Special Elite', cursive;
 }
 
-#foot h2 {
-  font-family: 'Pacifico', cursive;
-  color: white;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 4rem;
+body {
+  background-color: #FBFBFB;
 }
 
-#foot p {
-  font-family: 'Special Elite', cursive;
-  color: #C6E9F4;
-  text-align: center;
-  font-size: 16px !important;
-}
-
-#head {
-  background-image: url("./../images/background.jpeg");
-  border-radius: 0px !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#foot {
-  background-color: #2C363C;
-    border-radius: 0px !important;
-}
 
 .jumbotron h1 {
   font-family: 'Pacifico', cursive;
@@ -189,7 +167,7 @@ label {
   font-size: 4rem;
   background-color: #9CD6EA;
   padding-top: 20px;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
   padding-bottom: 20px;
   color: #9CD6EA;
 }
@@ -360,14 +338,6 @@ label {
   color: #9CD6EA;
 }
 
-// .glyphicon-chevron-right {
-//   margin-right: 200px!important;
-// }
-//
-// .glyphicon-chevron-left {
-//   margin-left: 200px!important;
-// }
-
 .feature-title {
   font-family: 'Special Elite', cursive;
   color: #2C363C;
@@ -386,20 +356,6 @@ label {
   color: #2C363C;
   text-align: center;
 }
-
-// .carousel-caption h3 {
-//   // float: left;
-//   font-family: 'Pacifico', cursive;
-//   font-size: 4rem;
-//   color: white;
-//   margin-bottom: 300px;
-//   margin-left: -500px;
-// }
-
-// .biz-img img:hover {
-//   max-width: 225px;
-//   padding: -75px;
-// }
 
 #cat-well {
   background-color: white;
@@ -452,4 +408,31 @@ label {
 
 #cancelBtn {
   margin-bottom: 50px;
+}
+
+#foot h2 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+#foot p {
+  font-family: 'Special Elite', cursive;
+  color: #C6E9F4;
+  text-align: center;
+  font-size: 16px !important;
+}
+
+#head {
+  background-image: url("./../images/background.jpeg");
+  border-radius: 0px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foot {
+  background-color: #2C363C;
+  border-radius: 0px !important;
 }
