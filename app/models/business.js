@@ -8,6 +8,8 @@ export default DS.Model.extend({
   city: DS.attr(),
   state: DS.attr(),
   zip: DS.attr(),
+  latitude: DS.attr('number'),
+  longitude: DS.attr('number'),
   phone: DS.attr(),
   image: DS.attr(),
   yearsInBusiness: DS.attr(),
