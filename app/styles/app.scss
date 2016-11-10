@@ -1,6 +1,11 @@
 @import "ember-modal-dialog/ember-modal-structure";
 @import "ember-modal-dialog/ember-modal-appearance";
 
+.map-display {
+  height: 600px;
+  width: 600px;
+}
+
 li {
   font-family: 'Special Elite', cursive;
 }
@@ -9,32 +14,10 @@ label {
     font-family: 'Special Elite', cursive;
 }
 
-#foot h2 {
-  font-family: 'Pacifico', cursive;
-  color: white;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 4rem;
+body {
+  background-color: #FBFBFB;
 }
 
-#foot p {
-  font-family: 'Special Elite', cursive;
-  color: #C6E9F4;
-  text-align: center;
-  font-size: 16px !important;
-}
-
-#head {
-  background-image: url("./../images/background.jpeg");
-  border-radius: 0px !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#foot {
-  background-color: #2C363C;
-    border-radius: 0px !important;
-}
 
 .jumbotron h1 {
   font-family: 'Pacifico', cursive;
@@ -189,7 +172,7 @@ label {
   font-size: 4rem;
   background-color: #9CD6EA;
   padding-top: 20px;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
   padding-bottom: 20px;
   color: #9CD6EA;
 }
@@ -305,14 +288,79 @@ label {
   margin-top: 50px;
 }
 
+.new-biz-head {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+}
+
 .update-title {
   font-family: 'Special Elite', cursive;
 }
 
-// .biz-img img:hover {
-//   max-width: 225px;
-//   padding: -75px;
-// }
+.carousel-inner {
+  max-width: 750px;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
+  margin-top: 20px;
+  max-height: 400px;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  height: 400px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.feature-block {
+  background-color: #2C363C;
+  margin-left: 150px;
+  margin-right: -135px;
+  margin-top: 20px;
+  color: white;
+  padding-left: 40px;
+  font-family: 'Special Elite', cursive;
+  min-height: 400px;
+}
+
+.feature-biz-info {
+  background-color: #FBFBFB;
+  margin-left: -25px;
+  min-height: 200px;
+  color: #2C363C;
+  padding: 20px;
+}
+
+.feature-biz-name {
+  color: #9CD6EA;
+}
+
+.feature-title {
+  font-family: 'Special Elite', cursive;
+  color: #2C363C;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.feature-site {
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+.feature-name {
+  font-family: 'Pacifico', cursive;
+  color: #2C363C;
+  text-align: center;
+}
 
 #cat-well {
   background-color: white;
@@ -326,6 +374,7 @@ label {
   text-align: center;
   font-family: 'Special Elite', cursive;
   border-color: #9CD6EA;
+  max-height: 300px;
 }
 
 #foot h2 {
@@ -356,6 +405,39 @@ label {
   border-radius: 0px !important;
 }
 
-#model-overlays {
-  padding: 30px;
+#edit-modal {
+  padding: 50px !important;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+#cancelBtn {
+  margin-bottom: 50px;
+}
+
+#foot h2 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+#foot p {
+  font-family: 'Special Elite', cursive;
+  color: #C6E9F4;
+  text-align: center;
+  font-size: 16px !important;
+}
+
+#head {
+  background-image: url("./../images/background.jpeg");
+  border-radius: 0px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foot {
+  background-color: #2C363C;
+  border-radius: 0px !important;
 }

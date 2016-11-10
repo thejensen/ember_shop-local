@@ -5,6 +5,7 @@ export default Ember.Route.extend({
       return this.store.findRecord('business', params.businesses_id);
   },
   actions: {
+    // debugger;
     update(business, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key]!==undefined) {

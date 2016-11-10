@@ -5,7 +5,7 @@
                   targetAttachment="center"
                   translucentOverlay=true}}
   <h4 class="update-title">Update {{business.name}}'s Profile</h4>
-  <div>
+  <div id="edit-modal">
     <form class="update-biz-form">
       <div class="form-group">
         <label for="name">Name</label>
@@ -43,6 +43,20 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="form-group">
+            <label for="latitude">Latitude</label>
+            {{input value=business.latitude id="latitude" class="form-control"}}
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="form-group">
+            <label for="longitude">Longitude</label>
+            {{input value=business.longitude id="longitude" class="form-control"}}
+          </div>
+        </div>
+      </div>
       <div class="form-group">
         <label for="phone">Phone Number</label>
         {{input value=business.phone id="phone" class="form-control"}}
@@ -65,7 +79,7 @@
       </div>
       <button {{action 'update' business}}>Save Updates</button>
     </form>
-    <button {{action 'cancelBusinessForm'}}>Cancel</button>
+    <button id="cancelBtn" {{action 'cancelBusinessForm'}}>Cancel</button>
   </div>
   {{/modal-dialog}}
 {{/if}}

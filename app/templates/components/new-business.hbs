@@ -5,7 +5,7 @@
   {{#modal-dialog close="toggleModal"
     targetAttachment="center"
     translucentOverlay=true}}
-  <h1>New Business</h1>
+  <h1 class="new-biz-head">New Business</h1>
   <div class="new-biz-form">
     <form {{action 'saveBusiness' on="submit"}}>
       <div class="form-group">
@@ -18,6 +18,7 @@
         {{input value=hours id="hours" required="required" class="form-control"}}
       </div>
 
+
       <div class="form-group">
         <label for="addr1">Street Address</label>
         {{input value=addr1 id="addr1" required="required" class="form-control"}}
@@ -28,19 +29,37 @@
         {{input value=addr2 id="addr2" class="form-control"}}
       </div>
 
-      <div class="form-group">
-        <label for="city">City</label>
-        {{input value=city id="city" required="required" class="form-control"}}
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="form-group">
+            <label for="city">City</label>
+            {{input value=city id="city" required="required" class="form-control"}}
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-group">
+            <label for="state">State</label>
+            {{input value=state id="state" required="required" class="form-control"}}
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-group">
+            <label for="zip">Zipcode</label>
+            {{input value=zip id="zip" required="required" class="form-control"}}
+          </div>
+        </div>
       </div>
 
       <div class="form-group">
-        <label for="state">State</label>
-        {{input value=state id="state" required="required" class="form-control"}}
+        <label for="latitude">Latitude</label>
+        {{input value=latitude id="latitude" required="required"}}
       </div>
 
       <div class="form-group">
-        <label for="zip">Zipcode</label>
-        {{input value=zip id="zip" required="required" class="form-control"}}
+        <label for="longitude">Longitude</label>
+        {{input value=longitude id="longitude" required="required"}}
       </div>
 
       <div class="form-group">
