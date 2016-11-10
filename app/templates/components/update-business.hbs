@@ -77,8 +77,8 @@
         <label for="website">Website</label>
         {{input value=business.website id="website" class="form-control"}}
       </div>
-      <button {{action 'update' business}}>Save Updates</button>
-      <button id="cancelBtn" {{action 'cancelBusinessForm'}}>Cancel</button>
+      <button class="btn btn-default"{{action 'update' business}}>Save Updates</button>
+      <button class="btn btn-default" {{action 'cancelBusinessForm'}}>Cancel</button>
   </form>
   </div>
   {{/modal-dialog}}
