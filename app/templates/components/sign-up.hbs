@@ -1,8 +1,9 @@
+<hr>
 {{#if addBusinessButton}}
   {{new-business saveBusiness="saveBusiness" model=model}}
 {{else}}
-  <div class="biz-description">
-    <h4>Administrator sign in</h4>
+  <div class="sign-up">
+    <h4 class="admin">Administrator sign in</h4>
     <form {{action 'signUp' on="submit"}}>
       <div class="form-group">
         <label for="email">Email</label>
@@ -13,7 +14,8 @@
         <label for="password">Password</label>
         {{input value=password id="password" class="form-control"  required="required"}}
       </div>
-      <button class="btn btn-success" type=submit>sign in</button>
+      <button class="sign-up-btn btn btn-success" type=submit>sign in</button>
     </form>
   </div>
 {{/if}}
+<hr>

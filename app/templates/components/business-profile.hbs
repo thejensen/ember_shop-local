@@ -18,16 +18,15 @@
 <div class="biz-info">
   Hours: {{business.hours}} <br>
   Address: {{business.addr1}} {{business.addr2}} {{business.city}}, {{business.state}} {{business.zip}}<br>
-  latitude: {{business.latitude}}, longitude: {{business.longitude}}
+  Phone: {{business.phone}} <br>
+  Years in business: {{business.yearsInBusiness}} <br><br>
 
   <div class="map">
     {{google-map business=business}}
   </div>
-  
-  Phone: {{business.phone}} <br>
-  Years in business: {{business.yearsInBusiness}} <br>
+
+
 </div>
-<br><br><br>
 <hr>
 
 <button class="delete-btn btn btn-danger" {{action 'delete' business}}>delete business</button>
