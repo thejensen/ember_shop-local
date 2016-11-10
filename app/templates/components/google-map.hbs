@@ -1,3 +1,10 @@
-<button class="map-btn btn btn-primary"{{action 'showMap' business}}>show map</button>
+<button class="map-btn btn btn-primary"{{action 'toggleModal' business}}>show map</button>
 
-<div class="map-display"></div>
+{{#if isShowingModal}}
+  {{#modal-dialog close="toggleModal"
+                  targetAttachment="center"
+                  translucentOverlay=true}}
+  <div class="map-display"></div>
+
+{{/modal-dialog}}
+{{/if}}
