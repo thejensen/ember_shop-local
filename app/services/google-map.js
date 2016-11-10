@@ -6,7 +6,6 @@ export default Ember.Service.extend({
     return new this.googleMaps.Map(container, options);
   },
   center(latitude, longitude) {
-    console.log(window.google);
     return new this.googleMaps.LatLng(latitude, longitude);
   }
 });

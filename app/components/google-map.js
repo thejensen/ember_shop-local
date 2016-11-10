@@ -5,13 +5,12 @@ export default Ember.Component.extend({
 
   actions: {
     showMap(business) {
-      var map = this.get('map');
       var container = this.$('.map-display')[0];
       var options = {
-        center: this.get('map').center(business.latitude, business.longitude),
+        center: this.get('map').center(business.get('latitude'), business.get('longitude')),
         zoom: 15
       };
-      map.findMap(container, options);
+      this.get('map').findMap(container, options);
     }
   }
 });
