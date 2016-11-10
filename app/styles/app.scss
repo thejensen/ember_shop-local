@@ -2,9 +2,9 @@
 @import "ember-modal-dialog/ember-modal-appearance";
 
 .map-display {
+  display: none;
   height: 600px;
   width: 600px;
-  display: block;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
