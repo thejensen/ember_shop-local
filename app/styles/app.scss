@@ -1,6 +1,11 @@
 @import "ember-modal-dialog/ember-modal-structure";
 @import "ember-modal-dialog/ember-modal-appearance";
 
+.map-display {
+  height: 600px;
+  width: 600px;
+}
+
 li {
   font-family: 'Special Elite', cursive;
 }

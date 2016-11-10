@@ -15,6 +15,8 @@ export default Ember.Component.extend({
         city: this.get('city') ? this.get('city') : "Portland",
         state: this.get('state') ? this.get('state') : "OR",
         zip: this.get('zip') ? this.get('zip') : "",
+        latitude: this.get('latitude') ? this.get('latitude') : "",
+        longitude: this.get('longitude') ? this.get('longitude') : "",
         phone: this.get('phone') ? this.get('phone') : "",
         image: this.get('image') ? this.get('image') : "https://dummyimage.com/600x400/000/fff.png&text=??",
         yearsInBusiness: this.get('yearsInBusiness') ? this.get('yearsInBusiness') : "",
