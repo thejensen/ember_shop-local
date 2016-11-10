@@ -19,8 +19,11 @@
   Hours: {{business.hours}} <br>
   Address: {{business.addr1}} {{business.addr2}} {{business.city}}, {{business.state}} {{business.zip}}<br>
   latitude: {{business.latitude}}, longitude: {{business.longitude}}
-  {{google-map business=business}}
 
+  <div class="map">
+    {{google-map business=business}}
+  </div>
+  
   Phone: {{business.phone}} <br>
   Years in business: {{business.yearsInBusiness}} <br>
 </div>
