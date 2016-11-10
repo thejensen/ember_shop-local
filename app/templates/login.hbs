@@ -1,11 +1,12 @@
-<form {{action 'authenticate' on='submit'}}>
-  <label for="identification">Login</label>
+<form class="login-form"{{action 'authenticate' on='submit'}}>
+  <label for="identification">Login</label><br>
   {{input id='identification' placeholder='Enter Login' value=identification}}
-  <br>
-  <label for="password">Password</label>
+  <br><br>
+  <label for="password">Password</label><br>
   {{input id='password' placeholder='Enter Password' type='password' value=password}}
 
-  <button type="submit" class="btn   btn-default">Login</button>
+  <br><br>
+  <button type="submit" class="btn btn-default">Login</button>
   </form>
 
   {{#if errorMessage}}
