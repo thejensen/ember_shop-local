@@ -4,6 +4,7 @@ export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
   actions: {
     showMap(business) {
+      this.$('.map-display').show();
       var container = this.$('.map-display')[0];
       console.log(this.$('.map-display')[0]);
       var options = {
