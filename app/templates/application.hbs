@@ -12,13 +12,6 @@
         <li>{{#link-to 'businessList'}}businessess{{/link-to}}</li>
         <li>{{#link-to 'allCategories'}}categories{{/link-to}}</li>
         <li>{{#link-to 'about'}}about{{/link-to}}</li>
-        <li>
-          {{#if session.isAuthenticated}}
-            <a {{action 'invalidateSession'}}>logout</a>
-          {{else}}
-            {{#link-to 'login'}}login{{/link-to}}
-          {{/if}}
-        </li>
       </ul>
     </div>
 
