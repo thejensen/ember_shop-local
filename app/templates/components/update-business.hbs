@@ -4,8 +4,8 @@
   {{#modal-dialog close="toggleModal"
                   targetAttachment="center"
                   translucentOverlay=true}}
-  <h4 class="update-title">Update {{business.name}}'s Profile</h4>
   <div id="edit-modal">
+    <h1 class="update-title">Update {{business.name}}'s Profile</h1>
     <form class="update-biz-form">
       <div class="form-group">
         <label for="name">Name</label>
@@ -78,8 +78,8 @@
         {{input value=business.website id="website" class="form-control"}}
       </div>
       <button {{action 'update' business}}>Save Updates</button>
-    </form>
-    <button id="cancelBtn" {{action 'cancelBusinessForm'}}>Cancel</button>
+      <button id="cancelBtn" {{action 'cancelBusinessForm'}}>Cancel</button>
+  </form>
   </div>
   {{/modal-dialog}}
 {{/if}}
