@@ -1,13 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  mockAuth: Ember.inject.service(),
+  addBusinessButton: false,
+
   model(params) {
       return this.store.findRecord('category', params.category_id);
   },
 
   actions: {
     saveBusiness(params) {
-      console.log(params);
       var newBusiness = this.store.createRecord('business', params);
       var category = params.category;
       console.log(category);
@@ -16,6 +18,6 @@ export default Ember.Route.extend({
         return category.save();
       });
       this.transitionTo('categories', category);
-    }
+    },
   }
 });
